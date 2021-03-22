@@ -1,0 +1,14 @@
+server:
+   port: 8080
+   
+spring:
+   datasource:
+      url: jdbc:mysql://localhost:3306/customer_db_local
+      username: root
+      password: delepjung
+   jpa:
+      properties:
+         hibernate:
+            show_sql: false
+            format_sql: false
+      database-platform: org.hibernate.dialect.MySQLDialect
